@@ -1,0 +1,48 @@
+.columns {
+    columns: 5;
+    column-gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .columns {
+        columns: 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .columns {
+        columns: 2;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .columns {
+        columns: 1;
+    }
+}
+
+.image {
+    display: block;
+    height: 400px;
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .image {
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.image-wrapper {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.image-wrapper>img {
+    width: 100%;
+    /* crops the image but provides image to fit the size given and does not stretch */
+    object-fit: cover;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <title>Portfolio | Contact</title>
+</head>
+
+<body class="body">
+    <!-- repetative start -->
+    <div class="nav-wrapper">
+        <nav class="navbar">
+            <a href="./index.html" class="link">Home</a>
+            <a href="./portfolio.html" class="link">Portfolio</a>
+            <a href="./contact.html" class="link-active">Contact</a>
+            <a href="./blog.html" class="link">Blog</a>
+            <a href="./sitereport.html" class="link">Site Report</a>
+        </nav>
+        <div class="mobile-navbar">
+            <div class="hamburger-wrapper">
+                <input type="checkbox" id="toggle" />
+                <img src="./assets/icons8-hamburger-menu-150.png" class="hamburger" alt="hamburger" />
+                <nav class="mobile-nav">
+                    <a href="./index.html" class="link">Home</a>
+                    <a href="./portfolio.html" class="link">Portfolio</a>
+                    <a href="./contact.html" class="link-active">Contact</a>
+                    <a href="./blog.html" class="link">Blog</a>
+                    <a href="./sitereport.html" class="link">Site Report</a>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+    <!-- repetative end -->
+    <div class="content-wrapper">
+        <div class="contact-content">
+            <div class="contact-details">
+                <label class="header-label">Contact me through</label>
+                <label class="label">Phone Number : 07915 995447</label>
+                <label class="label">Address : 49 harrow street, Northampton NN1 4HQ</label>
+                <label class="label">Email : prabeshkandel57@gmail.com</label>
+            </div>
+            <div class="center">
+                <label class="header-label">OR</label>
+            </div>
+            <div class="form-wrapper">
+                <label class="header-label">Send a mail</label>
+                <form action="mailto:prabeshkandel57@gmail.com?subject=PortfolioContact" method="post" enctype="text/plain" class="form">
+
+                    <label class="label">Full Name</label>
+                    <input type="text" placeholder="Name" name="name" class="input" />
+
+                    <label class="label">Email</label>
+                    <input type="email" placeholder="Email" name="email" class="input" />
+
+                    <label class="label">Query</label>
+                    <textarea placeholder="Type your query here" name="query" rows="4" cols="50" class="input-area"></textarea>
+
+                    <button type="Submit" class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

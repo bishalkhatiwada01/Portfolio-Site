@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="blog.css">
+
+    <title>Portfolio | Blog</title>
+</head>
+
+<body class="body">
+    <!-- repetative start -->
+    <div class="nav-wrapper">
+        <nav class="navbar">
+            <a href="./index.html" class="link">Home</a>
+            <a href="./portfolio.html" class="link">Portfolio</a>
+            <a href="./contact.html" class="link">Contact</a>
+            <a href="./blog.html" class="link-active">Blog</a>
+            <a href="./sitereport.html" class="link">Site Report</a>
+        </nav>
+        <div class="mobile-navbar">
+            <div class="hamburger-wrapper">
+                <input type="checkbox" id="toggle" />
+                <img src="./assets/icons8-hamburger-menu-150.png" class="hamburger" alt="hamburger" />
+                <nav class="mobile-nav">
+                    <a href="./index.html" class="link">Home</a>
+                    <a href="./portfolio.html" class="link">Portfolio</a>
+                    <a href="./contact.html" class="link">Contact</a>
+                    <a href="./blog.html" class="link-active">Blog</a>
+                    <a href="./sitereport.html" class="link">Site Report</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- repetative end -->
+    <div class="content-wrapper">
+        <div class="columns">
+            <article>
+                <h2 class="header">Structuring the Project</h2>
+                <img src="./assets/blog1.png" alt="blog1_image" class="image" />
+                <p class="paragraph">It is the starting of the project where I started with designing the navbar for the Portfolio project. I selected the color yellow for background and white as text color. The nav items css are provided with flex display and has been distributed
+                    evenly using space-even css to make sure they are seperated evenly across screen which I later changed so that it does not look odd in larger screens</p>
+            </article>
+        </div>
+
+        <hr class="hor-row" />
+
+        <div class="columns">
+            <article>
+                <h2 class="header">Applying Animation for my name</h2>
+                <img src="./assets/blog2.png" alt="blog1_image" class="image" />
+                <p class="paragraph">This has been the challenging part for all I've done from starting the project. Adding animation I have been searching through the web and trying to understand the approach they have taken to accomplish the task. I accomplished this animation
+                    using animation css, where I used transform, filter and opacity for the animation effect where every letters are looped for 100 milliseconds for infinite amount of time.</p>
+            </article>
+        </div>
+
+        <hr class="hor-row" />
+
+        <div class="columns">
+            <article>
+                <h2 class="header">Working with Contact page</h2>
+                <img src="./assets/blog3.png" alt="blog1_image" class="image" />
+                <p class="paragraph">For contact page I used flexbox and planned to use my contact details in left section of the page and provide form that will launch user email program at the right side of the screen where visitor can enter their name, email with some
+                    query that they have which can be further mailed using submit button. </p>
+            </article>
+        </div>
+
+    </div>
+</body>
+
+</html>
